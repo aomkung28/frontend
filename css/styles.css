@@ -1977,6 +1977,9 @@ float: right;
 .border-top{
   border-top: 1px solid gainsboro;
 }
+.border-buttom{
+  border-bottom: 1px solid gainsboro;
+}
 .detail img{
   width: 50px;
 }
@@ -1990,10 +1993,17 @@ float: right;
 .text-sp{
     width: 70%;
     margin: 0 auto;
+    padding: 15px;
 }
 .text-sp img{
   width: 50px;
 }
-.text-sp p{
-  padding: 13px;
+.text-sp .border-top{
+    margin-top: 15px;
+  }
+.text-sp  p{
+  text-align: right;
+}
+.alert{
+  margin : 0!important;
 }
