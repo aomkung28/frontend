@@ -10,6 +10,9 @@ body {
 ul li{
   list-style: none;
 }
+label{
+      font-family: 'Kanit', sans-serif!important;
+}
 .delay05s {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
@@ -162,13 +165,13 @@ header .header-info .language-switch .dropdown-menu {
   padding: 0;
 }
 header .header-info .language-switch .dropdown-menu li a {
-  color: white;
+  color: #004c1c;
+  background-color: white;
   padding: 5px 15px 5px 15px;
-  background-color: #004c1c;
 }
 header .header-info .language-switch .dropdown-menu li a:hover {
-  background-color: white;
-  color: #004c1c;
+  background-color: #004c1c;
+  color: white;
 }
 
 header .header-info .language-switch .dropdown-menu li img {
@@ -1899,8 +1902,8 @@ transform: translate3d(0,-4px,0);
 }
 .down{
   vertical-align: bottom;
-      padding: 5px;
-          padding-top: 50px;
+  padding: 5px;
+  padding-top: 80px;
 }
 .down button{
   width: 100%;
@@ -2010,7 +2013,21 @@ float: right;
 .ct-control-panel__filter-option__avail-num{
     padding-left: 10px;
   }
+.bill{
+      width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.bill-l{
+  padding: 70px 20px;
+}
 
+.bill-r{
+  border-left: 1px solid #bbbbbb;
+}
+.bill-r .text-head , .bill-l .text-head{
+    padding: 10px;
+}
   /*----------------- ----------------*/
   .handle-counter { overflow: hidden;    padding: 0;}
 
