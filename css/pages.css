@@ -2453,7 +2453,7 @@ hr.dotted {
 ------------------------------------
 */
 .bg-primary {
-  background-color: #6d5cae;
+  background-color: #004C1C;
 }
 .bg-primary-dark {
   background-color: #584b8d;
@@ -2630,7 +2630,7 @@ hr.dotted {
   color: #f55753 !important;
 }
 .text-primary {
-  color: #6d5cae !important;
+  color: #004C1C !important;
 }
 /* Text Aligngments
 ------------------------------------
@@ -2876,7 +2876,6 @@ hr.dotted {
 [Buttons Base Styles]
 */
 .btn {
-  font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   letter-spacing: 0.01em;
@@ -5861,7 +5860,6 @@ form legend {
   background-color: #ffffff;
   background-image: none;
   border: 1px solid rgba(0, 0, 0, 0.07);
-  font-family: Arial, sans-serif;
   -webkit-appearance: none;
   color: #2c2c2c;
   outline: 0;
